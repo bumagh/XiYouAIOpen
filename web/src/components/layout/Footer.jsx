@@ -209,6 +209,25 @@ const FooterBar = () => {
             </a>
           </div>
         </div>
+
+        <div className='w-full max-w-[1110px] mt-4 pt-4 border-t border-semi-color-border'>
+          <Typography.Text className='text-xs !text-semi-color-text-2 text-center block mb-2'>
+            {t('公司名称全称')} &nbsp;|&nbsp; {t('公司注册地址')} &nbsp;|&nbsp; {t('联络电话标签')}: 852-62374412 &nbsp;|&nbsp; {t('客服邮箱标签')}: <a href='mailto:820540955@qq.com' className='!text-semi-color-text-2'>820540955@qq.com</a>
+          </Typography.Text>
+          <div className='flex flex-wrap justify-center gap-3 text-xs !text-semi-color-text-2'>
+            <a href='/user-agreement' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('用户协议')}</a>
+            <span>|</span>
+            <a href='/privacy-policy' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('隐私政策')}</a>
+            <span>|</span>
+            <a href='/terms-of-service' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('服务条款')}</a>
+            <span>|</span>
+            <a href='/refund-policy' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('退款政策')}</a>
+            <span>|</span>
+            <a href='/delivery-policy' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('交付政策')}</a>
+            <span>|</span>
+            <a href='/performance-policy' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('履约政策')}</a>
+          </div>
+        </div>
       </footer>
     ),
     [logo, systemName, t, currentYear, isDemoSiteMode],
@@ -239,6 +258,24 @@ const FooterBar = () => {
               >
                 New API
               </a>
+            </div>
+          </div>
+          <div className='w-full max-w-[1110px] mt-2 pt-2 border-t border-semi-color-border'>
+            <Typography.Text className='text-xs !text-semi-color-text-2 text-center block mb-2'>
+              {t('公司名称全称')} &nbsp;|&nbsp; {t('公司注册地址')} &nbsp;|&nbsp; {t('联络电话标签')}: 852-62374412 &nbsp;|&nbsp; {t('客服邮箱标签')}: <a href='mailto:820540955@qq.com' className='!text-semi-color-text-2'>820540955@qq.com</a>
+            </Typography.Text>
+            <div className='flex flex-wrap justify-center gap-3 text-xs !text-semi-color-text-2'>
+              <a href='/user-agreement' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('用户协议')}</a>
+              <span>|</span>
+              <a href='/privacy-policy' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('隐私政策')}</a>
+              <span>|</span>
+              <a href='/terms-of-service' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('服务条款')}</a>
+              <span>|</span>
+              <a href='/refund-policy' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('退款政策')}</a>
+              <span>|</span>
+              <a href='/delivery-policy' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('交付政策')}</a>
+              <span>|</span>
+              <a href='/performance-policy' className='!text-semi-color-text-2 hover:!text-semi-color-primary transition-colors'>{t('履约政策')}</a>
             </div>
           </div>
         </footer>

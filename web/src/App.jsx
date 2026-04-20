@@ -55,6 +55,10 @@ const Dashboard = lazy(() => import('./pages/Dashboard'));
 const About = lazy(() => import('./pages/About'));
 const UserAgreement = lazy(() => import('./pages/UserAgreement'));
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
+const TermsOfService = lazy(() => import('./pages/TermsOfService'));
+const RefundPolicy = lazy(() => import('./pages/RefundPolicy'));
+const DeliveryPolicy = lazy(() => import('./pages/DeliveryPolicy'));
+const PerformancePolicy = lazy(() => import('./pages/PerformancePolicy'));
 
 function DynamicOAuth2Callback() {
   const { provider } = useParams();
@@ -355,6 +359,38 @@ function App() {
           element={
             <Suspense fallback={<Loading></Loading>} key={location.pathname}>
               <PrivacyPolicy />
+            </Suspense>
+          }
+        />
+        <Route
+          path='/terms-of-service'
+          element={
+            <Suspense fallback={<Loading></Loading>} key={location.pathname}>
+              <TermsOfService />
+            </Suspense>
+          }
+        />
+        <Route
+          path='/refund-policy'
+          element={
+            <Suspense fallback={<Loading></Loading>} key={location.pathname}>
+              <RefundPolicy />
+            </Suspense>
+          }
+        />
+        <Route
+          path='/delivery-policy'
+          element={
+            <Suspense fallback={<Loading></Loading>} key={location.pathname}>
+              <DeliveryPolicy />
+            </Suspense>
+          }
+        />
+        <Route
+          path='/performance-policy'
+          element={
+            <Suspense fallback={<Loading></Loading>} key={location.pathname}>
+              <PerformancePolicy />
             </Suspense>
           }
         />

@@ -3376,6 +3376,21 @@
     "从剪贴板粘贴配置": "Paste Config",
     "剪贴板中未检测到连接信息": "No connection info found in clipboard",
     "连接信息已填入": "Connection info applied",
-    "无法读取剪贴板": "Cannot read clipboard"
+    "无法读取剪贴板": "Cannot read clipboard",
+    "公司名称全称": "HUAMENG LIMITED / 华梦有限公司",
+    "公司注册地址": "Portion 1 of Unit No.721A, 7/F, Star House, No.3 Salisbury Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+    "联络电话标签": "Tel",
+    "客服邮箱标签": "Support",
+    "服务条款": "Terms of Service",
+    "退款政策": "Refund Policy",
+    "交付政策": "Delivery Policy",
+    "履约政策": "Performance Policy",
+    "查看定价": "View Pricing",
+    "💳 充值说明与政策": "💳 Payment & Policies",
+    "订阅服务即时开通，支持 Payssion 支付。7日内重大功能缺陷可申请退款。详细规则请查看相关政策。": "Subscription services are activated immediately with Payssion payment support. Refunds available within 7 days for critical defects. Please check related policies for details.",
+    "Refund Policy": "Refund Policy",
+    "Terms of Service": "Terms of Service",
+    "Delivery Policy": "Delivery Policy",
+    "Performance Policy": "Performance Policy"
   }
 }

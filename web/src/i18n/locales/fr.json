@@ -3332,6 +3332,10 @@
     "从剪贴板粘贴配置": "Coller la config",
     "剪贴板中未检测到连接信息": "Aucune info de connexion trouvée dans le presse-papiers",
     "连接信息已填入": "Informations de connexion appliquées",
-    "无法读取剪贴板": "Impossible de lire le presse-papiers"
+    "无法读取剪贴板": "Impossible de lire le presse-papiers",
+    "公司名称全称": "HUAMENG LIMITED / 华梦有限公司",
+    "公司注册地址": "Portion 1 of Unit No.721A, 7/F, Star House, No.3 Salisbury Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+    "联络电话标签": "Tél",
+    "客服邮箱标签": "Support"
   }
 }

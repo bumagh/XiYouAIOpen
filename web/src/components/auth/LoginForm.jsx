@@ -709,6 +709,29 @@ const LoginForm = () => {
                   </Text>
                 </div>
               )}
+
+              {/* 充值介绍和政策链接 */}
+              <div className='mt-6 pt-4 border-t border-gray-200'>
+                <div className='text-center mb-3'>
+                  <Text size='small' className='text-gray-500 font-medium'>
+                    {t('💳 充值说明与政策')}
+                  </Text>
+                </div>
+                <div className='flex flex-wrap justify-center gap-2 text-xs mb-3'>
+                  <a href='/pricing' className='text-blue-600 hover:text-blue-800 underline'>{t('查看定价')}</a>
+                  <span className='text-gray-400'>|</span>
+                  <a href='/terms-of-service' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>{t('服务条款')}</a>
+                  <span className='text-gray-400'>|</span>
+                  <a href='/refund-policy' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>{t('退款政策')}</a>
+                  <span className='text-gray-400'>|</span>
+                  <a href='/delivery-policy' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>{t('交付政策')}</a>
+                  <span className='text-gray-400'>|</span>
+                  <a href='/performance-policy' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>{t('履约政策')}</a>
+                </div>
+                <div className='text-xs text-gray-500 text-center leading-relaxed px-2'>
+                  {t('订阅服务即时开通，支持 Payssion 支付。7日内重大功能缺陷可申请退款。详细规则请查看相关政策。')}
+                </div>
+              </div>
             </div>
           </Card>
         </div>
@@ -862,6 +885,29 @@ const LoginForm = () => {
                   </Text>
                 </div>
               )}
+
+              {/* 充值介绍和政策链接 */}
+              <div className='mt-6 pt-4 border-t border-gray-200'>
+                <div className='text-center mb-3'>
+                  <Text size='small' className='text-gray-500 font-medium'>
+                    {t('💳 充值说明与政策')}
+                  </Text>
+                </div>
+                <div className='flex flex-wrap justify-center gap-2 text-xs mb-3'>
+                  <a href='/pricing' className='text-blue-600 hover:text-blue-800 underline'>{t('查看定价')}</a>
+                  <span className='text-gray-400'>|</span>
+                  <a href='/terms-of-service' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>{t('服务条款')}</a>
+                  <span className='text-gray-400'>|</span>
+                  <a href='/refund-policy' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>{t('退款政策')}</a>
+                  <span className='text-gray-400'>|</span>
+                  <a href='/delivery-policy' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>{t('交付政策')}</a>
+                  <span className='text-gray-400'>|</span>
+                  <a href='/performance-policy' target='_blank' rel='noopener noreferrer' className='text-blue-600 hover:text-blue-800 underline'>{t('履约政策')}</a>
+                </div>
+                <div className='text-xs text-gray-500 text-center leading-relaxed px-2'>
+                  {t('订阅服务即时开通，支持 Payssion 支付。7日内重大功能缺陷可申请退款。详细规则请查看相关政策。')}
+                </div>
+              </div>
             </div>
           </Card>
         </div>
